@@ -3,306 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Chosen</title>
+    <title>The Chosen | Serie de TV</title>
     <link rel="stylesheet" href="estilos.css"/>
+    <link rel="shortcut icon" href="Imagens/faviconC.png" type="image/x-icon">
 </head>
-<body>
+<body onload="atualizaPerson()">
     <header>
-        <article id="TopLeft"> <img src="Imagens/logo.jpg" width="350" height="150" alt="Logo da Serie"></article>
-        <article id="TopMid"> <a name="PersonJesus"></a> <h1>The Chosen</h1> <p>Jesus de Nazaré é um homem simples, filho de um carpinteiro, de família humilde, que, com a ajuda de seus 12 discípulos, procura, através de suas palavras e ações, compartilhar o bem e amparar os mais necessitados que encontra em suas jornadas.</p> </article>
-        <article id="TopRight"> <img src="Imagens/JesusLooking.jpg" width="350" height="150" alt="Imagem de Jesus"></article>
-        <article id="DownHeadLeft">
-            <p>Emissoras Originais: Trinity Broadcasting Network, UPtv </p>
-            <p>Primeiro Episodio: 24 de dezembro 2017 (EUA)</p>
-        </article>
-        <article id="DownHeadRight">
-            <p>Autores: Dallas Jenkins, Ryan Swanson, Tyler Thompson</p>
-            <p>Baseado em: Vida de Jesus</p>
-        </article>
+        <div id="head-left">
+            <h1><a href="index.html">The Chosen</a></h1>
+        </div>
+        <div id="head-center">
+            <img src="Imagens/faviconC.png" alt="Imagem" id="img-head">
+        </div>
+        <div id="head-right">
+            <nav>
+                <ul>
+                    <li><a href="#sobre">História</a></li>
+                    <li><a href="#personagens">Personagens</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <main>
+        <section id="sobre">
+            <h2>História</h2>
+            <article class="section-body">
+                <picture id="body-picture">
+                    <img src="Imagens/JesusLooking.jpg" alt="Imagem de Jesus" id="first-image">
+                </picture>
+                <article id="body-text">
+                    <h3>Resumo da Serie</h3>
+                    <p>The Chosen é uma série dramática que retrata a vida de Jesus Cristo sob uma perspectiva humana e envolvente, mostrando não apenas os milagres e ensinamentos, mas também as emoções, desafios e histórias das pessoas que o cercavam. Diferente das produções bíblicas tradicionais, a série foca em desenvolver profundamente os personagens, explorando suas vidas antes e depois de encontrarem Jesus. Criada por Dallas Jenkins, a trama começa com os primeiros chamados — como o pescador Simão Pedro, o cobrador de impostos Mateus e Maria Madalena, que é libertada de espíritos malignos. Aos poucos, o público acompanha como cada discípulo reage de maneira única ao conhecer Jesus e ser convidado a segui-lo.</p>
+                    <p>A narrativa mostra um Jesus acessível, compassivo e, ao mesmo tempo, firme em sua missão. Ele é retratado como alguém que ri, sente, ensina com paciência e transforma a vida das pessoas ao seu redor. A série combina fidelidade bíblica com criatividade narrativa, tornando as passagens conhecidas do Evangelho mais próximas e emocionantes. Além disso, The Chosen se destaca por ser a primeira série de várias temporadas sobre a vida de Cristo e por ter sido financiada coletivamente por doações de fãs, alcançando grande sucesso internacional. Com trilha sonora marcante, atuações cativantes e uma abordagem moderna, The Chosen convida o público a conhecer Jesus de forma mais íntima — através dos olhos daqueles que o conheceram pessoalmente.</p>
+                </article>
+            </article>
+        </section>
+        <section id="personagens">
+            <h2>Personagens</h2>
+            <article class="section-body" id="personagens">
+                <div class="seta" onclick="backPerson()">
+                    <p id="seta"><-</p>
+                </div>
 
-    <section id="JesusCristo">
-        <article class="CaracterInfo">
-            <p>Personagem: Jesus Cristo</p>
-            <p>Ator: Jonathan Roumie</p>
-            <p>Idade: 51 anos </p>
-            <p>Nacionalidade: Norte Americano </p>
-            <p>Descrição: Endividado e com a carreira estagnada, ele se entregou totalmente a Deus e foi escolhido para representar Jesus na série The Chosen</p>
-        </article>
+                <div id="personagem-info">
+                    <picture id="personagem-info">
+                        <img src="Imagens/pedro.webp" alt="Personagem" id="personagem-info">
+                    </picture>
+                    <div id="info-2">
+                        <article id="personagem-info">
+                            <h3 id="p-info">Personagem</h3>
+                            <p id="p-info1">Ator</p>
+                            <p id="p-info2">Descrição</p>
+                            <p id="p-info3">Particularidade</p>
 
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterJesus.png" alt="Imagem Do Personagem"></div>
-            <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorJesus.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links">Primeiro Personagem</p></div>
-                <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-                    <div class="DownAside"><p  class="links"><a href="#PersonMariaM">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-            <article class="DescImg1"><p>Filho de Deus Pai</p></article>
-    </section>
+                        </article>
+                    </div>
+                </div>
 
-    <section id="MariaMadalena">
-        <article class="CaracterInfo">
-            <a name="PersonMariaM"></a>
-            <p>Personagem: Maria Madalena</p>
-            <p>Ator: Elizabeth Tabish</p>
-            <p>Idade: 38 anos </p>
-            <p>Nacionalidade: Norte Americana </p>
-            <p>Descrição: É uma atriz americana e filmmaker, renomada por seu papel como Maria Madalena na aclamada Serie de TV "The Chosen(2017)".</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterMariaM.jpg" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorMariaM.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonJesus">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonPedro">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Primeira pessoa que conheceu Jesus</p></article>
-    </section>
-
-    <section id="SimãoPedro">
-        <article class="CaracterInfo">
-            <a name="PersonPedro"></a>
-            <p>Personagem: Simão Pedro</p>
-            <p>Ator: Shahar Isaac</p>
-            <p>Idade: 31 anos</p>
-            <p>Nacionalidade: Norte Americano</p>
-            <p>Descrição: Shahar atuou em três séries conhecidas, sendo elas: Madam Secretary, Person of Interest, The Good Fight e The Chosen. Shahar participou de um filme chamado Price for Freedom.</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterPedro.jpg" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorPedro.webp" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonMariaM">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonJoao">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Melhor amigo de Jesus Cristo, recebeu a chave dos céus</p></article>
-    </section>
-
-    <section id="João">
-        <article class="CaracterInfo">
-            <a name="PersonJoao"></a>
-            <p>Personagem: João</p>
-            <p>Ator: George H. Xanthis</p>
-            <p>Idade: 35 anos </p>
-            <p>Nacionalidade: Australiano</p>
-            <p>Descrição:  Antes de The Chosen, Xanthis teve uma carreira diversificada, incluindo trabalhos no teatro e na televisão australiana. Ele ganhou um prêmio Webby em 2015 por seu papel em Syd2030 e foi indicado ao prêmio da Academia Australiana de Cinema e Televisão (AACTA) de Melhor Novo Talento por sua atuação em Open Slather de 2016. </p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterJoao.webp" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorJoao.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonPedro">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonAndre">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Discipulo Amado de Jesus Cristo</p></article>
-    </section>
-
-    <section id="André">
-        <article class="CaracterInfo">
-            <a name="PersonAndre"></a>
-            <p>Personagem: André</p>
-            <p>Ator: Noah James</p>
-            <p>Idade: 35 anos</p>
-            <p>Nacionalidade: Norte Americano </p>
-            <p>Descrição: Noah James nasceu o 18 de maio de 1989 em Los Angeles, Califórnia, EUA. É ator e diretor, conhecido pelo seu trabalho em Os Escolhidos (2017), Shameless (2011) e Game Shakers (2015).</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterAndre.webp" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorAndre.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonJoao">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonMatheus">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Primeiro discípulo a reconhecer Jesus</p></article>
-    </section>
-
-    <section id="Matheus">
-        <article class="CaracterInfo">
-            <a name="PersonMatheus"></a>
-            <p>Personagem: Matheus</p>
-            <p>Ator: Paras Patel</p>
-            <p>Idade: 38 anos </p>
-            <p>Nacionalidade: Norte Americano </p>
-            <p>Descrição: Paras Patel é ator, conhecido pelo seu trabalho em Os Escolhidos (2017), Duff: Você Conhece, Tem ou É (2015) e Espírito Adolescente (2011).</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterMatheus.jpg" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorMatheus.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonAndre">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonTiagoMa">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Era um cobrador de impostos, mas Jesus o transformou</p></article>
-    </section>
-
-    <section id="TiagoMaior">
-        <article class="CaracterInfo">
-            <a name="PersonTiagoMa"></a>
-            <p>Personagem: Tiago Maior</p>
-            <p>Ator: Abe Martell Jallad</p>
-            <p>Idade: 36 anos</p>
-            <p>Nacionalidade: Norte Americano</p>
-            <p>Descrição: Abe Bueno-Jallad nasceu em El Paso, Texas, EUA. É ator, conhecido pelo seu trabalho em Máquina Mortífera (2016), Transcendence: A Revolução (2014) e Good Girls Revolt (2015).</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterTiagoMa.webp" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorTiagoMa.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonMatheus">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonTiagoMe">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Irmão de João. Corajoso e direto. Junto com o irmão, forma os "Filhos do Trovão".</p></article>
-    </section>
-
-    <section id="TiagoMenor">
-        <article class="CaracterInfo">
-            <a name="PersonTiagoMe"></a>
-            <p>Personagem: Tiago Menor</p>
-            <p>Ator: Jordan Walker Ross</p>
-            <p>Idade: 35 anos</p>
-            <p>Nacionalidade: Norte Americano</p>
-            <p>Descrição: Jordan Walker Ross nasceu o 8 de fevereiro de 1990 em Arlington, Texas, EUA. É ator e autor, conhecido pelo seu trabalho em Os Escolhidos (2017), 1883 (2021) e Pantera Negra: Wakanda para Sempre (2022) É casado com Stacy Ross.</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterTiagoMe.jpg" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorTiagoMe.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonTiagoMa">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonTadeu">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Reservado e humilde. Na série, é retratado com uma deficiência física, mas com grande fé.</p></article>
-    </section>
-
-    <section id="JudasTadeu">
-        <article class="CaracterInfo">
-            <a name="PersonTadeu"></a>
-            <p>Personagem: Judas Tadeu</p>
-            <p>Ator: Giavani Cairo</p>
-            <p>Idade: 33 anos</p>
-            <p>Nacionalidade: Norte Americano</p>
-            <p>Descrição: Giavani Cairo nasceu o 26 de junho de 1991 em Michigan, EUA. É ator, conhecido pelo seu trabalho em Os Escolhidos (2017), 9-1-1: Lone Star (2020) e Patrulha do Destino (2019).</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterTadeu.webp" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorTadeu.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonTiagoMe">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonTome">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Gentil e compassivo, com grande habilidade como artesão.</p></article>
-    </section>
-
-    <section id="Tomé">
-        <article class="CaracterInfo">
-            <a name="PersonTome"></a>
-            <p>Personagem: Tomé</p>
-            <p>Ator: Joey Vahedi</p>
-            <p>Idade: 32 anos</p>
-            <p>Nacionalidade: Norte Americano </p>
-            <p>Descrição: Joey Vahedi nasceu em Los Angeles, Califórnia, EUA. É ator e autor, conhecido pelo seu trabalho em Os Escolhidos (2017), Lúcifer (2016) e I Think You Should Leave with Tim Robinson - Um Show de Comédia (2019).</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterTome.jpg" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorTome.webp" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonTadeu">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonFilipe">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Na série, é um bom planejador e cozinheiro, mas luta com dúvidas e inseguranças.</p></article>
-    </section>
-
-    <section id="Filipe">
-        <article class="CaracterInfo">
-            <a name="PersonFilipe"></a>
-            <p>Personagem: Filipe</p>
-            <p>Ator: Yoshi Barrigas</p>
-            <p>Idade: 35 anos</p>
-            <p>Nacionalidade: Norte Americano</p>
-            <p>Descrição: Yoshi Barrigas nasceu o 25 de agosto de 1989 em Massachusetts, EUA. É ator e diretor, conhecido pelo seu trabalho em Os Escolhidos (2017), Forty-Seven Days with Jesus (2024) e.</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterFelipe.jpg" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorFelipe.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonTome">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonNatanael">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Alegre, espontâneo e acolhedor. Foi mentor de Natanael. Ajuda outros a se aproximarem de Jesus.</p></article>
-    </section>
-
-    <section id="Natanael">
-        <article class="CaracterInfo">
-            <a name="PersonNatanael"></a>
-            <p>Personagem: Natanael</p>
-            <p>Ator: Austin Reed Alleman</p>
-            <p>Idade: 31 anos</p>
-            <p>Nacionalidade: Norte Americano</p>
-            <p>Descrição: É um ator e músico de New York. Ele é original de New Orleans, Louisiana. Ele se formou pela Academia Profissional de Treinamento de Atores em New York.</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterNatanael.jpg" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorNatanael.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonFilipe">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonZelote">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Cético no início, mas se torna um discípulo fiel. Arquiteto de profissão, busca propósito em sua vida.</p></article>
-    </section>
-
-    <section id="SimãoZelote">
-        <article class="CaracterInfo">
-            <a name="PersonZelote"></a>
-            <p>Personagem: Simão Zelote</p>
-            <p>Ator: Alaa Safi</p>
-            <p>Idade: 40 anos</p>
-            <p>Nacionalidade: Francês </p>
-            <p>Descrição: Alaa Safi nasceu em Paris, França. É ator e diretor, conhecido pelo seu trabalho em Indiana Jones e a Relíquia do Destino (2023), O Mauritano (2021) e Os Escolhidos (2017). É casado com Elena Borgogni desde o 20 de agosto de 2016.</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1" src="Imagens/CharacterZelote.jpg" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2" src="Imagens/ActorZelote.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonNatanael">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p  class="links"><a href="#PersonJudas">Clique aqui para ver o personagem abaixo</a></p></div>
-        </aside>
-        <article class="DescImg1"><p>Ex-revolucionário com habilidades de combate. Aprende a abandonar a violência ao seguir Jesus.</p></article>
-    </section>
-
-    <section id="JudasIscariotes">
-        <article class="CaracterInfo">
-            <a name="PersonJudas"></a>
-            <p>Personagem: Judas Iscariotes</p>
-            <p>Ator: Luke Dimyan</p>
-            <p>Idade: 28 anos</p>
-            <p>Nacionalidade: Norte Americano</p>
-            <p>Descrição: Luke Dimyan nasceu o 18 de setembro de 1996 em Torrance, Califórnia, EUA. É ator e autor, conhecido pelo seu trabalho em Os Escolhidos (2017), Home Invasion (2021) e Better Things (2016)</p>
-        </article>
-
-        <div class="CaracterImg1"> <img class="CImage1"src="Imagens/CharacterJudas.webp" alt="Imagem Do Personagem"></div>
-        <div class="CaracterImg2"><img class="CImage2"  src="Imagens/ActorJudas.jpg" alt="Imagem Do Ator"></div>
-        <aside>
-            <div class="UpAside"><p  class="links"><a href="#PersonZelote">Clique aqui para ver o personagem acima</a></p></div>
-            <div class="MidAside"><p  class="links"><a href="#PersonJesus">Clique aqui para voltar ao inicio</a></p></div>
-            <div class="DownAside"><p>Último Personagem</p></div>
-        </aside>
-        <article class="DescImg1"><p>Foi o homem que traiu Jesus com um beijo.</p></article>
-    </section>
-
+                <div class="seta" onclick="nextPerson()">
+                    <p id="seta">-></p>
+                </div>
+            </article>
+        </section>
+    </main>
     <footer>
-        <p>Referencias/Trailer/ETC</p>
-        <p><a href="https://www.youtube.com/watch?v=yj6bH5uupCo">Trailer</a></p>
+        <ul>
+            <p> <a href="https://www.youtube.com/watch?v=yj6bH5uupCo" target="_blank">Trailer</a> | <a href="https://instagram.com/nrinato.dev" target="_blank">&copy; nrinato.dev</a> | <a href="https://osescolhidos.tv/" target="_blank">Referência</a></p>
+        </ul>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

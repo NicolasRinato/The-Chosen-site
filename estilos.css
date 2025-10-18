@@ -1,140 +1,188 @@
-@font-face {
-    font-family: FonteCustomizada;
-    src: url(MelonCamp/MelonCamp.ttf);
-    }
-
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #ADB8D9;
+}
 
 header {
-    font-family: FonteCustomizada;
-    background-color: #b0ab4b;
-    width: 100%;
-    height: 250px;
-    text-align: center;
-}
-#TopLeft {
-    float: left;
-    width: 25%;
-    height: 150px;
-}
-#TopMid {
-    background-color: #b69f66;
-    float: left;
-    width: 50%;
-    height: 150px;
-}
-#TopRight {
-    float: left;
-    width: 25%;
-    height: 150px;
-}
-#DownHeadLeft {
-    background-color: #ead0a8;
-    float: left;
-    width: 50%;
-    height: 100px;
-}
-#DownHeadRight {
-    background-color: #ead0a8;
-    float: left;
-    width: 50%;
-    height: 100px;
+    display: flex;
+    background-color:#A67449;
 }
 
+img#img-head{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+h1 a{
+    color: black;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: white;
+}
+
+div#head-left, div#head-right {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+div#head-right {
+    justify-content: center;
+}
+
+div#head-left {
+    justify-content: left;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px 20px;
+}
+
+li a {
+    display: inline;
+    background-color: white;
+    padding: 15px;
+    text-decoration: none;
+    box-shadow: 3px 2px 2px black;
+    border-radius: 20px;
+    color: black;
+}
+
+li a:hover {
+    color: yellow;
+    background-color: #012840;
+}
 
 section {
-    font-family: FonteCustomizada;
-    background-color: #ead0a8;
-    float: left;
-    width: 100%;
-    height: 500px;
-}
-.CaracterInfo {
-    background-color: #d8af70;
-    float: left;
-    width: 24%;
-    height: 400px;
-    text-align: left;
-    border: 2px solid black;
-    border-radius: 10px;
-    
-
-}
-.CaracterImg1 {
-    display: flex;
-    float: left;
-    width: 25%;
-    height: 330px;
-    align-items: center;
-    justify-content: center;
-
-}
-.CaracterImg2 {
-    display: flex;
-    float: left;
-    width: 25%;
-    height: 330px;
-    align-items: center;
-    justify-content: center;
+    min-height: 100svb;
 }
 
 
-.DescImg1 {
-    background-color: #eae5df;
-    margin: 10px;
-    float: left;
-    width: 48%;
-    height: 50px;
+section:nth-child(even){
+    background-color: #49668C;
+}
+h2 {
     text-align: center;
+    color: white;
+}
+
+article.section-body {
+    margin-top: 80px;
+}
+
+article.section-body, picture#body-picture, article#body-text {
+    display: flex;
+    justify-content: center;
+}
+
+picture#body-picture {
+    width: 50%;
+}
+
+img#first-image {
+    width: 90%;
+}
+
+article#body-text {
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+article.section-body#personagens {
+    align-items: center;
+}
+
+div.seta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+    background-color: #735736;
     border: 2px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+p#seta {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+div.seta:hover {
+    background-color: #A67449;
+}
+
+article#personagem-info {
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid rgb(192, 235, 255);
     border-radius: 30px;
+    background-color: rgba(192, 230, 240, 0.781);
 }
 
+div#personagem-info {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
 
-.CImage1 {
-    width: 300px;
+picture#personagem-info {
+    border: 3px dashed #012840;
+}
+
+picture#personagem-info {
+    margin-top: 50px;
+}
+
+img#personagem-info, picture#personagem-info {
+    width: 350px;
     height: 300px;
-    border-radius: 20px;
-    border: 2px solid black;
-
-}
-.CImage2 {
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    border: 2px solid black;
 }
 
-
-aside {
-    background-color: #d8af70;
-    float: right;
-    width: 25%;
-    height: 400px;
-    border: 2px solid black;
-    border-radius: 10px;
-}
-.UpAside {
-    float: left;
-    width: 100%;
-    height: 150px;
-}
-.MidAside {
-    background-color: #ead0a8;
-    float: left;
-    width: 100%;
-    height: 100px;
-}
-.DownAside {
-    float: left;
-    width: 100%;
-    height: 150px;
+div#info-2 {
+    width: 50%;
 }
 
 
 footer {
-    background-color: #b2725f;
-    float: left;
-    width: 100%;
-    height: 100px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1px;
+    background-color: #A67449;
 }
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color: yellow;
+}
+
+
+/* Color Theme Swatches in Hex */
+.Moda-1-hex { color: #ADB8D9; }
+.Moda-2-hex { color: #49668C; }
+.Moda-3-hex { color: #012840; }
+.Moda-4-hex { color: #735736; }
+.Moda-5-hex { color: #A67449; }
